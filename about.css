@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com.css2?family=Merinda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito' sans-serif;
+    text-decoration: none;
+    }
+
+    html{
+        font-size: 62.5%;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        scroll-padding-top:6rem;
+    }
+    
+     body{
+        font-family: 'Merianda One' cursive;
+        background-image: url("lib/cool\ background.png");
+        background-repeat: no repeat;
+        background-size: cover;
+        height: 100%;
+    
+     }
+     .about .logo img{
+        height:20%;
+        width: 20%;
+        border-radius: 50%;
+        margin-left: 70px;
+     }
+
+     .aboutpg .aboutme {
+        justify-content: right;
+       
+            
+     }
+
+     .aboutpg .aboutme .content{
+        width:70rem;
+        /* text-align:center; */
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: -60px;
+        /* position: absolute; top: 5px; right: 2px;  */
+        cursor: pointer;
+      margin-right: 20px;
+     }
+
+     .aboutpg .aboutme .content h1{
+        font-size: 4rem;
+        color:var(--black);
+        font-family: 'Merienda One', cursive;
+     }
+
+     .aboutpg .aboutme .content p{
+        padding:1rem 0 ;
+        font-size: 2rem;
+        color: var(--black);
+        line-height: 2;
+     }
+     .aboutpg .aboutme .content h3{
+        font-size: 3rem;
+        color: black;
+     }
+
+     ul li a{
+      text-decoration:aqua;
+       margin-left: 850px; 
+       
+      border-radius: 2px;
+      /* color: black; */
+      padding: 10px;
+      font-size: 2rem;
+     }
+
+     ul li a:hover{
+      color: pink;
+     }

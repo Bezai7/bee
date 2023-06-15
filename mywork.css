@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito' sans-serif;
+    text-decoration: none;
+    }
+
+    body{
+        font-family: 'Merianda One' cursive;
+        background-image: url("lib/cool\ 2.jpg");
+        background-repeat: no no-repeat;
+        background-size:cover;
+        height: 100%;
+    
+     }
+
+     .workpg .mywork .content h1{
+        font-size: 2.5rem;
+        text-align: center;
+        padding-top: 10px;
+     }
+     .workpg .mywork .content p{
+        font-size: 1rem;
+        text-align: center;
+     }
+
+     .products{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        row-gap: 50px;
+        /* border: 2px solid white;  */
+        margin: 10px; 
+       }
+       
+       .product{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        /* gap: 40px; */
+        margin-top: 15px;
+        padding-right: 20px;
+    }
+
+    /* .top{
+        background-color:rgb(109, 6, 75);
+        color: white;
+        
+    } */
+    .product:hover{
+        box-shadow: 10px 1px 5px rgb(128, 128, 128);
+        row-gap: 5px;
+    }
+
+    p{
+        font-size: 1.5rem;
+        color: black;
+        text-align: center;
+
+    }
+
+    #foot{
+        /* background-color:rgb(160, 10, 110); */
+        padding: 40px;
+        border-top: 2px solid;
+    }
+    
+    #foot h2, p{
+        color: black;
+        text-align: center;
+    }
+    
+    #foot h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    ul li a{
+        text-decoration:aqua;
+         margin-left: 850px; 
+         
+        border-radius: 2px;
+        /* color: black; */
+        padding: 10px;
+        font-size: 1rem;
+       }
+  
+       ul li a:hover{
+        color: pink;
+       }
+    
